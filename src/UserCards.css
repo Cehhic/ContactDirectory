@@ -1,0 +1,33 @@
+
+
+.user-card {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+
+  }
+  
+  .user-card:hover {
+    transform: scale(1.04);
+    border: 0.5px solid lightblue;
+  }
+
+  p{
+    background-color: white
+  }
+
+  a{
+      background-color: white;
+  }
+
+  .Name{
+      font-size: x-large;
+  }
+  
