@@ -6,6 +6,7 @@ function CardList(list) {
   return (
 
     <div className="card">
+      
       {list.userList.map(user => (
         <UserCards user={user} />
       ))}

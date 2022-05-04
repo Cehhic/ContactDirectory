@@ -33,6 +33,7 @@ function App() {
 
   return (
     <div className="App">
+      
       <h1 className="title"> Activity 2: Contact Directory.</h1>
       <div className="searchDiv">
       <input

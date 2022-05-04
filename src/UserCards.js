@@ -6,6 +6,7 @@ function UserCards(list){
     var randomColor = Math.floor(Math.random()*16777215).toString(16)
     return(
         <div className ="user-card">
+            
         <img
         src={`https://ui-avatars.com/api/?name=${list.user.name}?set=set2&color=FFFFFF&size=180x180&background=2867B2`}
          />
